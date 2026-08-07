@@ -10,7 +10,7 @@ from .common import FRED_INDICATORS, TICKERS
 
 
 
-def load_fred_data(observation_start='1995-01-01'):
+def load_fred_data(observation_start='1998-01-01'):
     load_dotenv()
     fred = fredapi.Fred(api_key=os.getenv('FRED_API_KEY'))
 
@@ -24,7 +24,7 @@ def load_fred_data(observation_start='1995-01-01'):
     return df
 
 
-def load_yfinance_data(start_date = "1995-01-01"):
+def load_yfinance_data(start_date = "1998-01-01"):
     dfs = {}
     for name, ticker in TICKERS.items():
         # Load all ticker info
