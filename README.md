@@ -1,5 +1,5 @@
 # macro_market_signals
-This is a side project in which I aim to learn about financial markets by creating models to predict future financial conditions. I download a wide array of publically available financial data and use that to train models to predict future values of GDP and ETFs such as QQQ. I also design a buy/sell strategy for these ETFs using predicted future values and compare the results to a simple buy-and-hold strategy.
+Here, I am aiming to learn about financial markets by implementing machine learning models to predict future financial conditions. I download a wide array of publicly available financial data and use that to train models to predict future values of GDP and ETFs such as QQQ. I also design a buy/sell strategy for these ETFs using predicted future values and compare the results to a simple buy-and-hold strategy.
 
 This project is broken down into 4 notebooks:
 1) Data Collection
